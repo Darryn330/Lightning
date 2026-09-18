@@ -11,7 +11,7 @@ void setup()
 }
 void draw()
 {
-  fill(0, 0, 0, 20); // The '20' is the alpha opacity. Lower = slower fade, Higher = faster fade.
+  fill(0, 0, 0, 20);
   rect(0, 0, width, height);
   
   stroke(((int)(Math.random()*256)),((int)(Math.random()*256)),((int)(Math.random()*256)));
