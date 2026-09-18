@@ -34,4 +34,6 @@ void mousePressed()
    startY = mouseY;
    endX = mouseX;
    endY = mouseY;
+   
+   ellipse (mouseX, mouseY, (int)(Math.random()*100),(int)(Math.random()*100));
 }
